@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/ratingbacground"
+    >
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a4c639"
+        android:text="@string/rating"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#AD1457"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/rateCount"
+        android:background="@color/accent"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <EditText
+        android:id="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/write_Review"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="#00c3ff"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        tools:ignore="TextSizeCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/showRating"
+        android:layout_marginTop="10dp"
+        android:onClick="rating"
+/>
+
+</LinearLayout>

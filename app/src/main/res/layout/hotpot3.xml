@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:padding="5dp"
+    android:background="#f399"
+    >
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#83433a"
+        android:gravity="center"
+        android:text="@string/hot_pot5"
+        android:textColor="#FF8"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#00f297"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/hot_pot6"
+        android:textColor="#D81B60"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="389dp"
+        android:layout_height="93dp"
+        android:layout_margin="4dp"
+        android:background="#e2baf5"
+        android:gravity="left"
+        android:text="@string/text1page3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/tm2"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/tm2"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chhotpot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/chhotpot"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#8d2aa9"
+        android:gravity="center"
+        android:text="@string/hot_pot7"
+        android:textColor="#FF8A80"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="174dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chengdu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="#df6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/text1page3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateIds,MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#344"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/hot_pot8"
+        android:textColor="#F67"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/hot_pot15"
+        android:textColor="#FFFFFF"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.392"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="217dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chaoshan_beef_hot_pot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/chaoshan_beef_hot_pot"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
